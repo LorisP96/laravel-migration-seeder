@@ -24,7 +24,7 @@ class TravelTableSeeder extends Seeder
             'Londra'
         ];
 
-        for ($i = 0; $i < 6; $i++) {
+        for ($i = 0; $i < 5; $i++) {
 
             $new_travel = new Travel();
             $new_travel->date = $faker->dateTime();
